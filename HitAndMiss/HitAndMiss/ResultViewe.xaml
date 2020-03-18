@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="HitAndMiss.ResultViewe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HitAndMiss"
+             mc:Ignorable="d" 
+             Height="682" Width="797">
+    <Grid>
+        <Image Name="image" Width="797" Height="682" />
+        <Canvas Width="797" Height="682">
+            <Line Name="line1" Stroke="Red" StrokeThickness="2" />
+            <Line Name="line2" Stroke="Red" StrokeThickness="2" />
+        </Canvas>
+    </Grid>
+</UserControl>
